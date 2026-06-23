@@ -99,3 +99,12 @@ a {
   border: 1px solid #e5e7eb;
   border-radius: 8px;
 }
+
+@media (min-width: 768px) {
+  body {
+    padding: 3rem 2rem;
+  }
+  h1 {
+    font-size: 3.5rem;
+  }
+}
