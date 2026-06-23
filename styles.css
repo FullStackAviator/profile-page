@@ -87,3 +87,15 @@ p {
 a {
   color: var(--color-accent);
 }
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--space-md);
+}
+
+.card {
+  padding: var(--space-md);
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
