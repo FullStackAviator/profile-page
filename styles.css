@@ -13,11 +13,9 @@ img {
 }
 
 body {
-  font-family:
-    system-ui,
-    -apple-system,
-    sans-serif;
+  font-family: "Fira Sans", system-ui, sans-serif;
   color: #1f2937;
+  background-color: #ffffff;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   max-width: 800px;
@@ -29,10 +27,31 @@ section {
   margin-bottom: 2.5rem;
 }
 
+h1,
+h2,
+h3 {
+  color: #111827;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.1;
+}
+
 h2 {
+  font-size: 1.75rem;
+  line-height: 1.2;
   margin-bottom: 0.75rem;
 }
 
+h3 {
+  font-size: 1.25rem;
+}
 p {
   margin-bottom: 1rem;
+  font-size: 1.0625rem;
+}
+
+a {
+  color: #1a56db;
 }
